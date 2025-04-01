@@ -3,45 +3,27 @@ package com.example.historyeveryday
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.example.historyeveryday.ui.theme.HistoryEverydayTheme
+import androidx.work.OneTimeWorkRequest
+import androidx.work.WorkManager
+import androidx.work.workDataOf
+import java.util.concurrent.TimeUnit
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+        scheduleDailyNotification()
+
         setContent {
-            HistoryEverydayTheme {
-                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
-                    )
-                }
-            }
+            HistoryScreen(context = this)
         }
     }
-}
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
+    private fun scheduleDailyNotification() {
+        val notificationWork = OneTimeWorkRequest.Builder(NotificationWorker::class.java)
+            .setInitialDelay(24, TimeUnit.HOURS) // 24時間後に通知
+            .setInputData(workDataOf("message" to "今日は五 一五事件の日"))
+            .build()
 
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    HistoryEverydayTheme {
-        Greeting("Android")
+        WorkManager.getInstance(this).enqueue(notificationWork)
     }
 }
