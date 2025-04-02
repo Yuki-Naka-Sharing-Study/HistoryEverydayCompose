@@ -42,6 +42,7 @@ android {
 dependencies {
     implementation("com.google.code.gson:gson:2.10.1")
     implementation("io.coil-kt.coil3:coil-compose:3.1.0")
+    implementation("io.coil-kt.coil3:coil-network-okhttp:3.1.0")
     // Jetpack Compose Core
     implementation(libs.androidx.compose.ui)
     implementation(libs.androidx.compose.ui.tooling)
