@@ -1,14 +1,92 @@
 [
   {
     "date": "01-01",
-    "events": ["五 一五事件の日", "アメリカ独立の日"]
+    "event": "キューバ革命",
+    "description": "1959年1月1日、フィデル・カストロ率いる革命軍がバティスタ政権を打倒し、キューバ革命が成功した。",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Fidel_Castro_Mats_1959.jpg"
   },
   {
-    "date": "02-26",
-    "events": ["二・二六事件の日"]
+    "date": "01-02",
+    "event": "ローマ帝国のヴェスパシアヌス帝即位",
+    "description": "69年1月2日、ローマ帝国でフラウィウス朝の創始者ヴェスパシアヌスが即位し、内戦を収束させた。",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Vespasianus01_pushkin_edit.png"
   },
   {
-    "date": "07-04",
-    "events": ["アメリカ独立の日"]
+    "date": "01-03",
+    "event": "明治維新の始まり（鳥羽・伏見の戦い）",
+    "description": "1868年1月3日、鳥羽・伏見の戦いが勃発し、明治維新の契機となった。",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Battle_of_Toba-Fushimi.png"
+  },
+  {
+    "date": "01-04",
+    "event": "ユーロ紙幣の流通開始",
+    "description": "2002年1月4日、ユーロ紙幣と硬貨が正式に流通を開始し、欧州経済統合が進んだ。",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Euro_banknotes.png"
+  },
+  {
+    "date": "01-05",
+    "event": "ナチスのナチ党再建",
+    "description": "1925年1月5日、アドルフ・ヒトラーがナチ党を再建し、独裁体制への道を開いた。",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Bundesarchiv_Bild_183-S33882%2C_M%C3%BCnchen%2C_Rathaus%2C_Hitler.jpg"
+  },
+  {
+    "date": "01-06",
+    "event": "モスクワの大祖聖堂建立",
+    "description": "1327年1月6日、ロシアのモスクワ大公国が大祖聖堂を建立し、正教会の中心となった。",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Uspensky_sobor.jpg"
+  },
+  {
+    "date": "01-07",
+    "event": "トルーマン・ドクトリン発表",
+    "description": "1947年1月7日、米国のトルーマン大統領が冷戦政策の一環として、反共産主義を掲げるトルーマン・ドクトリンを発表した。",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Harry_S._Truman%2C_official_portrait%2C_1945.jpg"
+  },
+  {
+    "date": "01-08",
+    "event": "ウィルソンの十四か条",
+    "description": "1918年1月8日、アメリカ大統領ウッドロウ・ウィルソンが第一次世界大戦後の平和原則として『十四か条』を発表した。",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Wilson14points.jpg"
+  },
+  {
+    "date": "01-09",
+    "event": "日露戦争開戦",
+    "description": "1904年1月9日、日本とロシアの間で満州・朝鮮を巡る対立が激化し、日露戦争が勃発した。",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Illustration_from_Japanese_book_%22Nisshin_Sens%C5%8D_Shina_Heitai_Gaikou%22_showing_Japanese_soldiers_capturing_a_Russian_flag_on_a_hilltop.png"
+  },
+  {
+    "date": "01-10",
+    "event": "国際連盟の創設",
+    "description": "1920年1月10日、第一次世界大戦後の国際平和機関として国際連盟が発足した。",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/League_of_Nations_-_Allan_Leonard.jpg"
+  },
+  {
+    "date": "01-11",
+    "event": "ヴェルダンの戦い",
+    "description": "1916年1月11日、第一次世界大戦中、フランスとドイツの間でヴェルダンの戦いが始まり、長期にわたる激戦となった。",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Verdun_fort_Douaumont.jpg"
+  },
+  {
+    "date": "01-12",
+    "event": "ルターの95か条の論題発表",
+    "description": "1517年1月12日、マルティン・ルターがローマ・カトリック教会に対抗し、宗教改革の火付け役となる『95か条の論題』を発表した。",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Luther95thesen.jpg"
+  },
+  {
+    "date": "01-13",
+    "event": "ジャンヌ・ダルクの裁判開始",
+    "description": "1431年1月13日、フランスの英雄ジャンヌ・ダルクが異端審問にかけられた。",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Joan_of_Arc_Miniature_1429.jpg"
+  },
+  {
+    "date": "01-14",
+    "event": "イギリスのチューダー朝成立",
+    "description": "1485年1月14日、ヘンリー7世が即位し、イングランドでチューダー朝が成立した。",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Henry_7.jpg"
+  },
+  {
+    "date": "01-15",
+    "event": "スペイン無敵艦隊の出撃",
+    "description": "1588年1月15日、スペインがイギリスに対する海戦に向け無敵艦隊を出撃させた。",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Invincible_Armada.jpg"
   }
 ]
